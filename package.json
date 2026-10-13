@@ -1,0 +1,28 @@
+{
+  "name": "tn-skill-farm-management-system",
+  "version": "1.0.0",
+  "description": "KisanSeva - Smart Farm Management System built on Salesforce DX, Apex, and Lightning Web Components (LWC)",
+  "main": "serve.js",
+  "type": "module",
+  "scripts": {
+    "start": "node serve.js",
+    "demo": "node serve.js",
+    "build:metadata": "node generate_metadata.js",
+    "build:lwc": "node generate_lwc.js",
+    "build:rules": "node generate_rules_and_security.js",
+    "build:all": "node generate_metadata.js && node generate_lwc.js && node generate_rules_and_security.js"
+  },
+  "keywords": [
+    "salesforce",
+    "sfdx",
+    "lightning-web-components",
+    "lwc",
+    "apex",
+    "farm-management",
+    "agritech",
+    "naan-mudhalvan",
+    "tn-skill-project"
+  ],
+  "author": "TN Skill Salesforce Developer",
+  "license": "MIT"
+}
